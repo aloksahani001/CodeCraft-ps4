@@ -15,6 +15,4 @@ To balance global activity trends with creator-specific history, the scoring eng
 
 The scheduling decision is made by comparing the current posting slot with the predicted optimal slot. If the current slot achieves a near-optimal score, the system recommends POST_NOW; otherwise, it recommends SCHEDULE for improved engagement potential.
 
-*Keep your description concise and focused on your core decision-making logic.*
-
-**Note:** Please do not change the format or spelling of anything in this README. The fields are extracted using a script, so any changes to the structure or formatting may break the extraction process.
+*
