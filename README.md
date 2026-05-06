@@ -2,7 +2,7 @@
 
 ## Team Information
 - **Team Name**: CodeCraft
-- **Year**: 
+- **Year**: 2nd Year
 - **All-Female Team**: No
 
 ## Architecture Overview
@@ -14,5 +14,3 @@ Platform selection between Instagram and YouTube is handled through comparative 
 To balance global activity trends with creator-specific history, the scoring engine combines platform-wide activity scores with historical engagement metrics for the specific creator, platform, content type, and posting time. Missing or sparse historical data is handled using fallback averages to maintain robustness and consistency.
 
 The scheduling decision is made by comparing the current posting slot with the predicted optimal slot. If the current slot achieves a near-optimal score, the system recommends POST_NOW; otherwise, it recommends SCHEDULE for improved engagement potential.
-
-*
